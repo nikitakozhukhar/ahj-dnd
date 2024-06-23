@@ -5,9 +5,9 @@ export default class Card {
   }
 
   addTask() {
-    const cardEl = document.createElement("li");
-    cardEl.classList.add("tasks-list__item");
-    cardEl.classList.add("task");
+    const cardEl = document.createElement('li');
+    cardEl.classList.add('task-list__item');
+    cardEl.classList.add('task');
     cardEl.textContent = this.task;
 
     this.parent.appendChild(cardEl);

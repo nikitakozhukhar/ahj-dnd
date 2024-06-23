@@ -1,5 +1,5 @@
 import Card from "./Card";
-import showError from "./showError";
+import showError from './showError'
 
 export default class Board {
   constructor() {
@@ -211,6 +211,7 @@ export default class Board {
   }
 
   mouseDown(event) {
+    event.preventDefault();
     if (event.target.classList.contains("task")) {
       this.draggedEl = event.target;
       this.ghostEl = event.target.cloneNode(true);
