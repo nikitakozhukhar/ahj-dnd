@@ -1,6 +1,8 @@
 # Домашнее задание к занятию "6. Работа с файлами, DnD"
 
-**CI** [![Build status](https://ci.appveyor.com/api/projects/status/nl9x2hak2oocqvcg?svg=true)](https://ci.appveyor.com/project/kievsan/ahj-dnd)
+**CI** [![Build status](https://ci.appveyor.com/api/projects/status/i95erhqc8o7nr58j?svg=true)](https://ci.appveyor.com/project/nikitakozhukhar/ahj-dnd)
+
+https://nikitakozhukhar.github.io/ahj-dnd/
 
 Правила сдачи задания:
 
