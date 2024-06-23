@@ -11,8 +11,6 @@ let actualCard;
 const onMouseUp = (e) => {
   const mouseUpItem = e.target;
 
-  console.log(mouseUpItem)
-
   actualCard.classList.remove('card-dragged');
 
   actualCard = undefined;
@@ -21,7 +19,6 @@ const onMouseUp = (e) => {
 }
 
 const onMouseOver = (e) => {
-  console.log(e)
 
   actualCard.style.top = e.clientY + 'px';
   actualCard.style.left = e.clientY + 'px';
